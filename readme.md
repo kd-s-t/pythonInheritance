@@ -5,12 +5,14 @@
 
 * Display methods from another class    
   
-<img src="assets/img/pic1.png" width="50%">  
     
 # Usage  
 ```
 python Inheritance.py  
 ```
+
+<img src="assets/img/pic1.png" width="100%">  
+
 ```
 python Multilevel_Inheritance.py  
 ```
