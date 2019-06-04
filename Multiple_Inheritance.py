@@ -7,10 +7,10 @@ class Person:
   
     #defining class methods  
     def showName(self):  
-        print(self.name)  
+        print("Name: ",self.name)  
   
     def showAge(self):  
-        print(self.age)  
+        print("Age: ", self.age)  
   
     #end of class definition  
   
@@ -29,6 +29,7 @@ class Resident(Person, Student): # extends both Person and Student class
         Student.__init__(self, id)  
   
 # Create an object of the subclass  
-resident = Resident('John', 30, '102')  
+resident = Resident('Ken Dan', 18, '10305504') 
+print("ID: ", resident.getId())   
 resident.showName()  
-print(resident.getId())  
+resident.showAge()  

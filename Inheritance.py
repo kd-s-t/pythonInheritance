@@ -6,8 +6,6 @@ class Head():
     def ears(self): 
         return "I have ears"
   
-  
-# Inherited or Sub class (Note Person in bracket) 
 class Body(Head): 
   
     def chest(self): 
@@ -15,10 +13,8 @@ class Body(Head):
 
     def stomach(self): 
         return "I have stomach"
-
   
-  
-parts = Body() # An Object of Employee 
+parts = Body()
 print(parts.chest()) 
 print(parts.stomach()) 
 print(parts.eyes()) 

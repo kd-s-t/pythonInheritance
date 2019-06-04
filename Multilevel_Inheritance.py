@@ -1,11 +1,4 @@
-# A Python program to demonstrate inheritance 
-
-# Base or Super class. Note object in bracket. 
-# (Generally, object is made ancestor of all classes) 
-# In Python 3.x "class Person" is 
-# equivalent to "class Person(object)" 
-class Base(object): 
-	
+class Base(): 
 	# Constructor 
 	def __init__(self, name): 
 		self.name = name 
@@ -40,5 +33,5 @@ class GrandChild(Child):
 		return self.address		 
 
 # Driver code 
-g = GrandChild("Geek1", 23, "Noida") 
+g = GrandChild("Ken Dan", 18, "Cebu City") 
 print(g.getName(), g.getAge(), g.getAddress()) 
